@@ -10,5 +10,6 @@ public class MusicPlayer {
      public void platMusic(){
          System.out.printf("Play- " + music.getSong() );
          //asd
+         //sedf
      }
 }
