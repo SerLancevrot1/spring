@@ -10,9 +10,13 @@
     <!-- A bean definition with destruction method -->
     <bean id = "musicBean" class = "org.example.RockMusic" >
         <!-- collaborators and configuration for this bean go here -->
-
     </bean>
 
+
+    <bean id="musicPlayer" class="org.example.MusicPlayer" >
+    <constructor-arg ref="musicBean" ></constructor-arg>
+
+    </bean>
     <!-- more bean definitions go here -->
 
 </beans>
